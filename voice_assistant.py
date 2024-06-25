@@ -114,6 +114,7 @@ def send_email():
     FROM_EMAIL = "USER_EMAIL"
     TO_EMAIL = "RECEPTION_EMAIL"  # Email address of the recipient
     PASSWORD = "USER_PASS"    # USER_EMAIL password, better use an app password
+    # Go to manage Google account -> search for app password -> generate an app password for email app -> use app password in place of "USER_PASS"
 
     MESSAGE = """Subject: Mail sent by project
     Message from voice assistant
