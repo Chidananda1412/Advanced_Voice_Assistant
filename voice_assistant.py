@@ -113,7 +113,7 @@ def send_email():
     port = 587
     FROM_EMAIL = "USER_EMAIL"
     TO_EMAIL = "RECEPTION_EMAIL"  # Email address of the recipient
-    PASSWORD = "USER_PASS"
+    PASSWORD = "USER_PASS"    # USER_EMAIL password, better use an app password
 
     MESSAGE = """Subject: Mail sent by project
     Message from voice assistant
