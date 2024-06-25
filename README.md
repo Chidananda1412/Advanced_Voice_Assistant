@@ -58,6 +58,8 @@ WEATHER_API_KEY=your-openweathermap-api-key
 
 ### Running the Assistant
 
+
+
 Run the `voice_assistant.py` file to start the voice assistant:
 ```bash
 python voice_assistant.py
@@ -79,6 +81,8 @@ python voice_assistant.py
 
 5. **Email**
    - Say "email" to send an email.
+   - Here better if u use an app-password
+      - Go to manage Google account -> search for app password -> generate an app password for email app -> use app password in place of "USER_PASS"
 
 6. **Weather**
    - Say "weather" and provide a city name to get the weather information.
