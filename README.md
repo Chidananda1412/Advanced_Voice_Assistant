@@ -46,7 +46,7 @@ pip install pyttsx3 SpeechRecognition wikipedia requests python-dotenv
 
 ### Environment Variables
 
-Create a `.env` file in the root directory of the project and add your email credentials and OpenWeatherMap API key:
+Create a `.env` file(This is optional) in the root directory of the project and add your email credentials and OpenWeatherMap API key:
 ```
 EMAIL_USER=your-email@example.com
 EMAIL_PASS=your-email-password
