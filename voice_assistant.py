@@ -7,12 +7,10 @@ import speech_recognition as sr
 import webbrowser
 import datetime
 import time
-import threading
+
 import wikipedia
 
 
-# Load environment variables from .env file
-load_dotenv() #This is optional
 
 # Initialize text-to-speech engine
 engine = pyttsx3.init()
