@@ -9,9 +9,7 @@ import datetime
 import time
 import threading
 import wikipedia
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from dotenv import load_dotenv
+
 
 # Load environment variables from .env file
 load_dotenv() #This is optional
